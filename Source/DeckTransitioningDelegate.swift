@@ -24,6 +24,8 @@ import UIKit
 /// ```
 public final class DeckTransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
     
+    public var topInsect:CGFloat = 0
+    
     // MARK: - Private variables
     
     private let isSwipeToDismissEnabled: Bool

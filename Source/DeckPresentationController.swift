@@ -93,7 +93,7 @@ final class DeckPresentationController: UIPresentationController, UIGestureRecog
             return .zero
         }
         
-        let yOffset = ManualLayout.presentingViewTopInset + Constants.insetForPresentedView
+        let yOffset = ManualLayout.presentingViewTopInset + Constants.insetForPresentedView + transitioningDelegate!.topInsect
         
         return CGRect(x: 0,
                       y: yOffset,
